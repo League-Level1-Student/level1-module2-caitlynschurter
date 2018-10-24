@@ -30,18 +30,18 @@ This is because there is no Minion class in the package.
   
   To check, run this MinionTest class and the JUnit tab should show a GREEN bar.
     
- 
+*/ 
 
 public class MinionTest {
 
 	@Test
 	public void testConstructor() {
-		Minion stuart = new Minion("Stuart", 1, "yellow", "");
+		Minions stuart = new Minions("Stuart", 1, "yellow", "");
 		assertEquals("Stuart", stuart.getName());
 		assertEquals(1, stuart.getEyes());
 		assertEquals("yellow", stuart.getColor());
 
-		Minion dave = new Minion("Dave", 2, "yellow", "");
+		Minions dave = new Minions("Dave", 2, "yellow", "");
 		assertEquals("Dave", dave.getName());
 		assertEquals(2, dave.getEyes());
 		assertEquals("yellow", dave.getColor());
@@ -49,7 +49,7 @@ public class MinionTest {
 
 	@Test
 	public void testSetters() {
-		Minion stuart = new Minion("Stuart", 1, "yellow", "");
+		Minions stuart = new Minions("Stuart", 1, "yellow", "");
 
 		stuart.setMaster("T. Rex");
 		assertEquals("T. Rex", stuart.getMaster());
@@ -59,6 +59,6 @@ public class MinionTest {
 	}
 
 }
-*/
+
 
 
