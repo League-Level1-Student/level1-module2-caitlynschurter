@@ -20,5 +20,5 @@ public class Vault {
 		else {
 			return false;
 		}
-	}	
+	}
 }
