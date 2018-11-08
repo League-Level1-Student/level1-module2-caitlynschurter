@@ -11,12 +11,3 @@ public class JamesBond {
 		assertEquals(true, v.tryCode(665));
 	}
 }
-/*
- * Minions stuart = new Minions("Stuart", 1, "yellow", "");
- * assertEquals("Stuart", stuart.getName()); assertEquals(1, stuart.getEyes());
- * assertEquals("yellow", stuart.getColor());
- * 
- * Minions dave = new Minions("Dave", 2, "yellow", ""); assertEquals("Dave",
- * dave.getName()); assertEquals(2, dave.getEyes()); assertEquals("yellow",
- * dave.getColor()); }
- */
